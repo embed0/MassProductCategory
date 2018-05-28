@@ -1,0 +1,11 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Aurora_MassProductCategory::mass_product_category"
+             title="Mass Product Category"
+             module="Aurora_MassProductCategory"
+             sortOrder="0"
+             action="MassProductCategory/index/index"
+             parent="Magento_Catalog::catalog"
+             resource="Magento_Backend::content" />
+    </menu>
+</config>
